@@ -1,0 +1,22 @@
+{
+  "name": "pawsrescue-backend",
+  "version": "1.0.0",
+  "description": "backend project for pawsrescue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "node.js",
+    "javascript",
+    "backend"
+  ],
+  "author": "rupesh_ashok_sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
